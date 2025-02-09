@@ -1,6 +1,11 @@
-<h1 class="text-4xl text-red-700">Welcome to SvelteKit</h1>
-<p class="text-lg"> Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 
-
-<button class="btn btn-accent">Acent</button>
+<div class="hero min-h-screen bg-base-300">
+    <div class="hero-content">
+        <div class="max-w-md font-bold text-4xl">
+            <h1 class="text-white font-bold text-4xl">Welcome to PokePage</h1>
+            <p class="py-6">Create an account to make your own PokePage with your own unique url</p>
+            <a href="/login" class="btn btn-accent">Create an Account</a>
+        </div>
+    </div>
+</div>
